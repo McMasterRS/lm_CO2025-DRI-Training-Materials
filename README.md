@@ -1,13 +1,13 @@
-# << ENTER LEARNING MODULE NAME HERE >>
+# Research Software Development Learning Module
 
-Materials for the McMaster Research Software learning module: **<<  ENTER LEARNING MODULE NAME HERE  >>** 
+Materials for the McMaster Research Software learning module: **Research Software Development Learning Module** 
 
-This repository contains learning module files, as well as files used to create the [learning module webpage](https://mcmasterrs.github.io/<<enter_site_url>>) with GitHub Pages.  
+This repository contains learning module files, as well as files used to create the [learning module webpage](https://mcmasterrs.github.io/lm_CO2025-deliverables) with GitHub Pages.  
 
 Contributions by the following individuals: 
-- Learning module content created by << ENTER NAME(S) HERE >> 
-- Content edited for online use by << ENTER NAME(S) HERE >> 
-- Online pages created by << ENTER NAME(S) HERE >> 
+- Learning module content created by [Kelvin Lee](https://orcid.org/0009-0000-7340-3204) 
+- Content edited for online use by [Kelvin Lee](https://orcid.org/0009-0000-7340-3204) 
+- Online pages created by [Kelvin Lee](https://orcid.org/0009-0000-7340-3204) 
 
 All content is made available under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).  
 
