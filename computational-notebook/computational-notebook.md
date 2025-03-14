@@ -8,21 +8,21 @@ nav_order: 3
 
 A computational notebook is a virtual, interactive environment, similar to an integrated development environment (IDE), which allows users to develop and execute code while having the ability of visualizing code outputs and documenting workflow. Computational notebooks are commonly used in data science, machine learning and academic research because they combine code (e.g. Python, R), text (e.g. markdown) and multimedia (e.g. data visualization images) in a single document. By providing documentation, source code and methodology, computational notebooks help make research software code reproducible.  
 
-[Jupyter Notebook](https://jupyter.org/) is one well-known example of computational notebook. [Google Colab](https://colab.research.google.com/) and [Syzygy](https://syzygy.ca/) are some cloud-based computational notebook services similar to Jupyter Notebook. Syzygy is a JupyterHub instance hosted by Compute Canada and Cybera to bring JupyterLab to researchers across Canada. 
+[Jupyter Notebook](https://jupyter.org/) is one well-known example of computational notebook. [Google Colab](https://colab.research.google.com/) and [Syzygy](https://syzygy.ca/) are some cloud-based computational notebook services similar to Jupyter Notebook. Syzygy is a JupyterHub instance hosted by Pacific Institute for the Mathematical Sciences, Digital Research Alliance of Canada and Cybera to bring JupyterLab to researchers across Canada. The Digital Research Alliance of Canada hosts additional computational resources through their [JupyterHub cloud service](https://docs.alliancecan.ca/wiki/JupyterHub), available to researchers upon request.  
 
-> What are JupyterLab and JupyterHub? How do they relate to Jupyter Notebook? Jupyter Notebook is often colloquially referred to two different concepts, the computational notebook file format and the basic interface to edit such file. JupyterLab offers a more integrated and extensible interface environment compared to Jupyter Notebook. JupyterHub is a deployable instance that supports multiple users running JupyterLab on the same server. In this learning module, we will mainly focus on Jupyter Notebook, JupyterLab and Syzygy, and refer to them as "Jupyter".   
+> What are JupyterLab and JupyterHub? How do they relate to Jupyter Notebook? Jupyter Notebook is often colloquially referred to two different concepts, the computational notebook file format and the basic interface to edit such file. JupyterLab offers a more integrated and extensible interface environment compared to the original Jupyter Notebook. JupyterHub is a deployable instance that supports multiple users running JupyterLab on the same server. In this learning module, we will mainly focus on Jupyter Notebook, JupyterLab and Syzygy (JupyterHub), and refer to them as "Jupyter".  
 
 ## Which Computational Notebook Should I Use?
 
 |            | Self-hosted [JupyterLab](https://github.com/jupyterlab/jupyterlab) | Syzygy | Google Colab |
 | ---------- | ------------------------------------------------------------------ | ------ | ------------ |
-| Pricing/Performance |Free and open source, users will need to invest in hardware (e.g. GPUs) and maintenance costs to deploy the software and achieve the desired performance | While Syzygy is free for most Canadian educational institutions, Syzygy has no GPUs allocation and provides limited resources to users (2GB memory & 1GB storage) | Free tier access comes with limited resources, while [Pro and Pro+ tiers](https://colab.research.google.com/signup) offer better performance with faster GPUs and more memory for data-intensive tasks and parallel computation |
+| Pricing/Performance | Free and open source, users will need to invest in computing hardware (e.g. CPUs, memory, GPUs) and maintenance costs to deploy the software and achieve the desired performance | Free for most Canadian educational institutions, no GPUs for allocation, limited resources to users (2GB memory & 1GB storage); intended primarily for testing or education | Free tier access comes with limited resources, while [Pro and Pro+ tiers](https://colab.research.google.com/signup) offer better performance with faster GPUs and more memory for data-intensive tasks and parallel computation |
 | Data Security & Privacy | While users have full control over the security and privacy of their data, it also requires users to implement their own security measures in the setup if it is installed on a server for multi-users | Data is stored in the Arbutus computing cluster at the University of Victoria, data on user home directories are only accessible by the users themselves and the cluster admins at University of Victoria | While data is encrypted at rest and in transit, since data resides on Google's cloud infrastructure, data might be subject to [Google's own terms and services](https://research.google.com/colaboratory/faq.html) |
 | Ease of Use (Onboarding) | Users will need to set up and maintain the instance, which requires a certain level of technical knowledge | Minimal setup required | Minimal setup required |
 
 ## A Beginner's Guide to Computational Notebook & Syzygy
 
-> While we use Syzygy as the example for all the contents in this learning module, all instructions are relevant for JupyterLab, Google Colab and any JupyterLab-derivatives. 
+> While we use Syzygy as the example for all the contents in this learning module, all instructions are relevant for JupyterLab, Google Colab and any JupyterLab-derivatives.  
 
 ## What's in a Computational Notebook?
 
@@ -48,7 +48,7 @@ In Syzygy, you can choose different kernels for your notebook. Simply click on t
 
 ![Notebook Interface](assets/img/notebook-interface.png)
 
-1. File browser: this area includes all files in your Syzygy instance’s root directory. You may upload notebooks, input files by drag-and-dropping files to the file browser or by cloning projects from Git with the "Git" option under the tab menu. 
+1. File browser: this area includes all files in your Syzygy instance's root directory. You may upload notebooks, input files by drag-and-dropping files to the file browser or by cloning projects from Git with the "Git" option under the tab menu. 
 
 2. Notebook actions tab: this area includes all actions for notebook, such as executing cells in the notebook and changing kernel used for the notebook. 
 
@@ -80,9 +80,9 @@ In the following sections, we will demonstrate how to use computational notebook
 
 ### Notebook to Presentation Slideshow
 
-Computational notebooks allow researchers to seamlessly combine code, text and visualization, making it easy to explain methodologies and display results during presentations. Again, the transparent and reproducible nature of computational notebooks is crucial to scientific and academic presentations. To make presentation slideshow using computational notebooks, you will need to install [Pandoc](https://pandoc.org/) on your local machine.  
+The same features that make computational notebooks effective at documenting and explaining methodologies and displaying results also make for effective slide shows for scientific and academic presentations. To make presentation slideshow using computational notebooks, you will need to install [Pandoc](https://pandoc.org/) on your local machine. While there are many other open source alternatives to Pandoc that offer similar format conversion features, Pandoc's combination of format versatility, customization and community support often makes it the preferred choice for many users.  
 
-Once Pandoc is installed following the [system-specific installation instructions](https://pandoc.org/installing.html),  go back to the Syzygy interface. Select "File" under the tab menu, you will see the option "Save and Export Notebook As," then export the notebook as markdown file. This action downloads the markdown file and all the visualizations in the notebook as separate PNG files.  
+Once Pandoc is installed following the [system-specific installation instructions](https://pandoc.org/installing.html), go back to the Syzygy interface. Select "File" under the tab menu, you will see the option "Save and Export Notebook As," then export the notebook as markdown file. This action downloads the markdown file and all the visualizations in the notebook as separate PNG files.  
 
 ![Notebook Export to Markdown](assets/img/notebook-export.png)
 
@@ -100,7 +100,9 @@ pandoc -t beamer -s <notebook_name>.md -o <slideshow_name>.pdf -V theme:Warsaw
 
 ### Notebook to Minimal Computing Website
 
-Sometimes users may want to present and host their research findings on a static website. In our [Introduction to Minimal Computing learning module](https://mcmasterrs.github.io/lm_minimal-computing), we discussed the benefits of hosting and preserving a static website with minimal computational dependencies. While Syzygy and Pandoc support conversion to static HTML files, it does not offer a streamlined experience for deploying the notebook as a website. Hence, we will use [Quarto](https://quarto.org/) to export the notebook contents to a website. Follow the [system-specific installation instructions](https://quarto.org/docs/get-started/) to install Quarto.  
+Computational notebooks can be converted to a website for sharing and displaying its contents. The resulting static websites have minimal dependencies which result in simple, [minimal computing-style](https://mcmasterrs.github.io/lm_minimal-computing) websites that will operate well into the future with little or no changes (i.e. "durable"), and be operable by many users with minimal dependencies to be installed.  
+
+While Syzygy and Pandoc support conversion to static HTML files, it does not offer a streamlined experience for deploying the notebook as a website. Hence, we will use [Quarto](https://quarto.org/) to export the notebook contents to a website. Follow the [system-specific installation instructions](https://quarto.org/docs/get-started/) to install Quarto.  
 
 Back in Syzygy, select "File" under the tab menu, and you will see the option to download your notebook. Open the command prompt on your system and navigate to the directory containing the notebook.  
 
@@ -129,9 +131,9 @@ The snippet above defines the formatting style for the HTML export and rendering
 quarto render
 ```
 
-You will then see the static HTML file created in the same directory. Nonetheless, Quarto goes beyond just generating HTML files. In our [Introduction to Minimal Computing learning module](https://mcmasterrs.github.io/lm_minimal-computing), we demonstrate how to host a minimal computing site with GitHub Pages. Quarto supports direct conversion deployment every time the notebook’s changes are pushed to GitHub.  
+You will then see the static HTML file created in the same directory. Nonetheless, Quarto goes beyond just generating HTML files. In our [Introduction to Minimal Computing learning module](https://mcmasterrs.github.io/lm_minimal-computing), we demonstrate how to host a minimal computing site with GitHub Pages. Quarto supports direct conversion deployment every time the notebook's changes are pushed to GitHub.  
 
-Once you’ve pushed your notebook and all files (e.g. assets, `_quarto.yaml`) to your repository. You may run the following command to instruct Quarto to render and publish your GitHub Pages website in your repository.  
+Once you've pushed your notebook and all files (e.g. assets, `_quarto.yaml`) to your repository. You may run the following command to instruct Quarto to render and publish your GitHub Pages website in your repository.  
 
 ```bash
 quarto publish gh-pages
@@ -139,7 +141,7 @@ quarto publish gh-pages
 
 ![Notebook GitHub Pages Demo](assets/img/notebook-github-pages.png)
 
-Then there’s your notebook as a styled minimal computing site on GitHub Pages. You may also create a GitHub Action workflow to automatically render and publish a new website every time you push new changes to the repository.  
+Then there's your notebook as a styled minimal computing site on GitHub Pages. You may also create a GitHub Action workflow to automatically render and publish a new website every time you push new changes to the repository.  
 
 Create a `.github/workflows` directory in your repository root directory. Inside the `workflows` directory, add a `publish.yaml` file with the following content.  
 
