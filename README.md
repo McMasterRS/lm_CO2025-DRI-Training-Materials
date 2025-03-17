@@ -1,6 +1,6 @@
-# Research Software Development Learning Module
+# Applying Technologies to Facilitate and Support Open Research
 
-Materials for the McMaster Research Software learning module: **Research Software Development Learning Module** 
+Materials for the Compute Ontario 2024-25 DRI Training: **Applying Technologies to Facilitate and Support Open Research** 
 
 This repository contains learning module files, as well as files used to create the [learning module webpage](https://mcmasterrs.github.io/lm_CO2025-deliverables) with GitHub Pages.  
 
