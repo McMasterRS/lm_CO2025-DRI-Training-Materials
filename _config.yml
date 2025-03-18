@@ -1,6 +1,6 @@
 title: Applying Technologies to Facilitate and Support Open Research # *** Enter learning module title here
-github_repo_url: "https://mcmasterrs.github.io/lm_CO2025-deliverables/" # ***Enter learning module URL (in github pages) here
-gh_edit_repository: "https://github.com/McMasterRS/lm_CO2025-deliverables" # *** ENTER the github URL for your repo
+github_repo_url: "https://mcmasterrs.github.io/lm_CO2025-DRI-Training-Materials/" # ***Enter learning module URL (in github pages) here
+gh_edit_repository: "https://github.com/McMasterRS/lm_CO2025-DRI-Training-Materials" # *** ENTER the github URL for your repo
 ga_tracking: "" # *** This needs to be set up in Google Analytics once you know the website URL. Then the tracking code needs to be taken from Google Analytics and pasted here.
 
 subtitle: "Compute Ontario 2024-25 DRI Training Materials: Applying Technologies to Facilitate and Support Open Research"
