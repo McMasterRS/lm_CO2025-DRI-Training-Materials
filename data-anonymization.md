@@ -116,7 +116,7 @@ Amnesia is Available for both Windows and Linux. The following guide describes t
 
 Amnesia requires a Java Runtime Environment with Java version 8 or greater. You can download and install the required Java Runtime Environment from the [official Oracle website](https://www.java.com/download/ie_manual.jsp).  
 
-Once the Java Runtime Environment has been installed on your machine, download the Amnesia installation executable from the [Amnesia website](https://amnesia.openaire.eu/download.html). Run the executable and you will see a .jar application file in the Desktop folder after installation is completed. Start Amnesia by clicking the application icon in Desktop.  
+Once the Java Runtime Environment has been installed on your machine, download the Amnesia installation executable from the [Amnesia website](https://amnesia.openaire.eu/download.html). Run the executable and you will see a `.jar` application file in the Desktop folder after installation is completed. Start Amnesia by clicking the application icon in Desktop.  
 
 ![Amnesia Installation](assets/img/amnesia-load-1.png)
 
