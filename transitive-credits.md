@@ -29,7 +29,7 @@ The algorithm used by CiteLang to allocate credit is based on the breadth and de
 
 Once the calculated weight value or depth drops below a certain threshold (`min-credit` or `max-depth` parameters set by users), the algorithm stops traversing further levels of that subtree.  
 
-```txt
+For example, consider the following dependency list files:  
 
 `requirements.txt`:  
 
