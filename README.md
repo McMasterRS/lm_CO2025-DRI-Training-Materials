@@ -2,7 +2,7 @@
 
 Materials for the Compute Ontario 2024-25 DRI Training: **Applying Technologies to Facilitate and Support Open Research** 
 
-This repository contains learning module files, as well as files used to create the [learning module webpage](https://mcmasterrs.github.io/lm_CO2025-deliverables) with GitHub Pages.  
+This repository contains learning module files, as well as files used to create the [learning module webpage](https://mcmasterrs.github.io/lm_CO2025-DRI-Training-Materials) with GitHub Pages.  
 
 Contributions by the following individuals: 
 - Learning module content created by [Kelvin Lee](https://orcid.org/0009-0000-7340-3204) 
