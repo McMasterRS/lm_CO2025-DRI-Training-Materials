@@ -3,7 +3,7 @@ github_repo_url: "https://mcmasterrs.github.io/lm_CO2025-deliverables/" # ***Ent
 gh_edit_repository: "https://github.com/McMasterRS/lm_CO2025-deliverables" # *** ENTER the github URL for your repo
 ga_tracking: "" # *** This needs to be set up in Google Analytics once you know the website URL. Then the tracking code needs to be taken from Google Analytics and pasted here.
 
-subtitle: "Compute Ontario 2024-25 DRI Training: Applying Technologies to Facilitate and Support Open Research"
+subtitle: "Compute Ontario 2024-25 DRI Training Materials: Applying Technologies to Facilitate and Support Open Research"
 favicon_ico: "https://raw.githubusercontent.com/McMasterRS/learning_module-template/main/assets/img/favicon.ico"
 nav_footer_logo_bottom: "https://raw.githubusercontent.com/McMasterRS/learning_module-template/main/assets/img/logo.png"
 nav_footer_logo_bottom_href: "https://research.mcmaster.ca/home/support-for-researchers/research-resources/research-software-development/"
