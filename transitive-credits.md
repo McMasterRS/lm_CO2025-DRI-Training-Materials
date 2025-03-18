@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Transitive Crediting System
-nav_order: 6
+nav_order: 7
 ---
 
 # Transitive Crediting System
@@ -21,7 +21,15 @@ In 2022, [the first proof-of-concept software for the transitive crediting syste
 
 A dependency list file describes the necessary software artifacts to build and execute the software and is usually included in the project directory along with the source code. In Python and PIP (Package Installer for Python), a dependency list file is typically a `requirements.txt` file. In JavaScript/TypeScript and NPM (Node Package Manager), it usually comes as a `package.json` file.  
 
-CiteLang can read these dependency list files and generate credits for the listed packages and recursively generate credits for the dependencies of those packages until a certain depth.  
+CiteLang can read these dependency list files and generate credits for the listed packages and generates credits for the dependencies of those packages based on the number of co-dependencies and how far removed it is from the original software.  
+
+The algorithm used by CiteLang to allocate credit is based on the breadth and depth of the dependency tree.  
+
+![Dependency Tree](assets/img/dependency-tree.png)
+
+Once the calculated weight value or depth drops below a certain threshold (`min-credit` or `max-depth` parameters set by users), the algorithm stops traversing further levels of that subtree.  
+
+```txt
 
 `requirements.txt`:  
 
@@ -156,7 +164,7 @@ The output shows a summary of code lines of contribution for each contributor in
 
 ### What's Next?
 
-Now that CiteLang has generated credits for the software packages and the people that build the project, what’s next? Publish your research results and software with the credit outputs.  
+Now that CiteLang has generated credits for the software packages and the people that built the project, what’s next? Publish your research results and software with the credit outputs. For instance, adding the credit in the documentation (e.g. README) in your software repository, or including the credit in the acknowledgements of your publications.  
 
 Research software is often built with software packages by developers who may not have a scholarly or academic research background. Persistent identifiers, such as ORCID IDs and DOIs, might be unfamiliar to these contributors. Nonetheless, it is important to acknowledge their contributions by accrediting the developers in your publication. These transitive credits can positively impact their social recognition, hiring, and promotion decisions, and incentivize more talented developers without a research background to contribute to open research software. An ideal transitive credit system should not only encompass only research software but also all scholarly outputs, both traditional and non-traditional (e.g. data, other digital products).  
 
