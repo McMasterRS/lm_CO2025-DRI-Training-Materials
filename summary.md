@@ -6,6 +6,28 @@ nav_order: 8
 
 # Summary
 
+The learning module discussed five technologies and methodologies that help shaping the future of research activities.  
+
+1. Computational Notebooks
+
+Computational notebooks are versatile tools that integrate code, text, and visualizations. They are essential for reproducible data analysis, facilitating collaboration, and enhancing educational experiences. These interactive documents enable researchers and educators to explore data, share insights, and develop complex models in a cohesive environment.  
+
+2. Evaluating Research Impact through Linked Open Data (LOD)
+
+Measuring research impact is important to both faculty and their academic institutions. By demonstrating the tangible benefits of the work, there are LOD available that can provide these links and metrics to contribute to professional reputations and can lead to career advancement. Furthermore, as the pricing of subscription-based bibliometric services continues to rise, LOD bibliometric databases, such as OpenAlex, are a viable option to measure current activities and provide a data-driven basis for future research publication strategies.  
+
+3. Research Impact of Software Developers
+
+Software developers play a crucial role in advancing scientific discoveries. Measuring and citing contributions of developers that support research helps acknowledge these contributions and helps support ongoing and future contributions.  
+
+4. Practical Guidance for Data Anonymization and De-identification 
+
+Effective anonymization and de-identification techniques are vital for protecting data privacy while maintaining the utility of datasets for research. There are best practices and considerations for achieving ideal data anonymization while maintaining the granularity of the datasets for research analysis, and software tools to support these activities.  
+
+5. Using Generative AI to Evaluate Quality of Data Dictionaries 
+
+Generative AI can be a useful tool to evaluate, and thereby improve,  data dictionaries. They offer objective assessments of the quality, consistency and completeness of the data documentation.  
+
 # References
 
 - LinkedIn. (n.d.). How do you select the right dimensions for your data skills and statistics?. Retrieved March 17, 2025, from [https://www.linkedin.com/advice/3/how-do-you-select-right-dimensions-your-data-skills-statistics](https://www.linkedin.com/advice/3/how-do-you-select-right-dimensions-your-data-skills-statistics)
