@@ -1,0 +1,40 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Compute Ontario 2024-25 DRI Training Materials: Applying
+  Technologies to Facilitate and Support Open Research
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ho Yin Kelvin
+    family-names: Lee
+    email: lee887@mcmaster.ca
+    affiliation: McMaster University
+    orcid: 'https://orcid.org/0009-0000-7340-3204'
+  - given-names: Isaac
+    family-names: Pratt
+    email: pratti@mcmaster.ca
+    affiliation: McMaster University
+    orcid: 'https://orcid.org/0000-0001-7839-3922'
+  - given-names: Danica
+    family-names: Evering
+    email: everingd@mcmaster.ca
+    affiliation: McMaster University
+    orcid: 'https://orcid.org/0000-0001-6326-7659'
+  - given-names: Jack
+    family-names: Young
+    email: jkyoung@mcmaster.ca
+    affiliation: McMaster University
+    orcid: 'https://orcid.org/0000-0003-4626-0409'
+  - given-names: David
+    family-names: Beardwood
+    email: beardwood@mcmaster.ca
+    orcid: 'https://orcid.org/0009-0009-2885-460X'
+keywords:
+  - DRI
+  - Training
+license: CC-BY-4.0
