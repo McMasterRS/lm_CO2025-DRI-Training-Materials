@@ -16,17 +16,18 @@ Computational notebooks are versatile tools that integrate code, text, and visua
 
 Measuring research impact is important to both faculty and their academic institutions. By demonstrating the tangible benefits of the work, there are LOD available that can provide these links and metrics to contribute to professional reputations and can lead to career advancement. Furthermore, as the pricing of subscription-based bibliometric services continues to rise, LOD bibliometric databases, such as OpenAlex, are a viable option to measure current activities and provide a data-driven basis for future research publication strategies.  
 
-3. Research Impact of Software Developers
+3. Using Generative AI to Evaluate Quality of Data Dictionaries 
 
-Software developers play a crucial role in advancing scientific discoveries. Measuring and citing contributions of developers that support research helps acknowledge these contributions and helps support ongoing and future contributions.  
+Generative AI can be a useful tool to evaluate, and thereby improve,  data dictionaries. They offer objective assessments of the quality, consistency and completeness of the data documentation.  
 
 4. Practical Guidance for Data Anonymization and De-identification 
 
 Effective anonymization and de-identification techniques are vital for protecting data privacy while maintaining the utility of datasets for research. There are best practices and considerations for achieving ideal data anonymization while maintaining the granularity of the datasets for research analysis, and software tools to support these activities.  
 
-5. Using Generative AI to Evaluate Quality of Data Dictionaries 
+5. Research Impact of Software Developers
 
-Generative AI can be a useful tool to evaluate, and thereby improve,  data dictionaries. They offer objective assessments of the quality, consistency and completeness of the data documentation.  
+Software developers play a crucial role in advancing scientific discoveries. Measuring and citing contributions of developers that support research helps acknowledge these contributions and helps support ongoing and future contributions.  
+
 
 # References
 
